@@ -1,55 +1,70 @@
 * {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Comic Sans MS", cursive;
     text-align: center;
+    color: goldenrod;
 }
 
-.card {
+.verso_card,
+.recto_card {
     box-sizing: border-box;
     border: black 2px solid;
     width: 85mm;
     height: 55mm;
 }
 
-header {
-    font-size: 0.7rem;
+.verso_card {
+    background-image: url("img/fond.png");
+}
+
+.recto_card {
+    background-color: black;
+}
+
+.verso_card hgroup {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding-right: 3.5rem;
+    justify-content: center;
+    height: 55mm;
+    vertical-align: center;
 }
 
-header img {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 1rem;
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    text-shadow: 1px 1px 8px goldenrod;
 }
 
-.flex {
+.verso_card p {
+    font-size: 1rem;
+}
+
+.recto_card {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 0.8rem;
 }
 
-main {
-    font-size: 0.5rem;
-}
-
-h1 {
-    text-shadow: 1px 1px 2px gray;
+main hgroup > * {
+    font-size: 0.7rem;
+    text-align: left;
 }
 
 address {
     font-style: normal;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 address p {
     text-align: left;
+    padding: 0.2rem;
+    border: 1px solid goldenrod;
+    border-radius: 0.2rem;
 }
 
 address a {
-    color: black;
+    color: goldenrod;
     text-decoration: none;
 }
 
@@ -58,12 +73,18 @@ address a:hover {
 }
 
 address a:visited {
-    color: black;
+    color: goldenrod;
     text-decoration: none;
 }
 
 aside img {
-    width: 4rem;
+    width: 5rem;
     border-radius: 15%;
-    border: black 2px solid;
+    border: goldenrod 2px solid;
+}
+
+hr {
+    background-color: goldenrod;
+    padding: 0.3px;
+    border: none;
 }

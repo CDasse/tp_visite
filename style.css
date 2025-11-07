@@ -1,0 +1,18 @@
+* {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: black;
+    color: #ded4d4;
+    text-align: center;
+}
+
+hgroup {
+    font-size: 1.5rem;
+}
+
+address {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+
+

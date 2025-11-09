@@ -20,34 +20,11 @@
     width: 2rem;
 }
 
-[src="img/www.png"] {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    transform: rotate(160deg);
-}
-
-[src="img/thinking.png"] {
-    position: absolute;
-    top: 2rem;
-    left: 17rem;
-}
-
-[src="img/internet.png"] {
-    position: absolute;
-    top: 10rem;
-    left: 2rem;
-}
-
 [src="img/programming.png"] {
     position: absolute;
-    top: 10rem;
+    top: 2rem;
     left: 17rem;
     transform: rotate(15deg);
-}
-
-.recto_card {
-    background-color: black;
 }
 
 .verso_card hgroup {
@@ -67,6 +44,11 @@ h1 {
 
 .verso_card p {
     font-size: 1rem;
+
+}
+
+.recto_card {
+    background-color: black;
 }
 
 .recto_card {
